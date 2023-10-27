@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@import url("../abstract/_variables.scss");
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: #99B080;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #748E63;
+}
+
+/* % Banner */
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  color: #FAF8ED;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  color: #F9B572;
+  opacity: 0.75;
+  border-radius: 48px 0;
+  background-color: #FAF8ED;
+}
+.banner h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.banner h2 {
+  font-size: 1.0344827586rem;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h4 {
+  font-size: 1.2rem;
+  color: #748E63;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h3 {
+  text-align: center;
+  font-size: 1.875rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.cards .card {
+  width: 360px;
+  text-align: center;
+  border: 1px solid #eee;
+  overflow: hidden;
+  border-radius: 48px 0;
+  background-color: #FAF8ED;
+  box-shadow: 0 0 15px hsla(0, 0%, 60%, 0.3);
+}
+.cards .card img {
+  width: 100%;
+}
+.cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #99B080;
+}
+.cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25;
+  padding: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+/* % Cupons */
+#cupons {
+  background-color: #F9B572;
+  padding: 4rem;
+  text-align: center;
+}
+#cupons .texto {
+  color: #FAF8ED;
+}
+#cupons .texto h2 {
+  margin: 2rem;
+  font-size: 2rem;
+}
+#cupons input {
+  width: 575px;
+  margin: 0 auto;
+  border-radius: 24px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 1rem;
+  outline: none;
+  text-align: center;
+  transition: all 0.6s ease;
+  font-size: 1.0909090909rem;
+}
+#cupons input:hover, #cupons input:focus {
+  box-shadow: 1px 1px 8px 1px #99B080;
+}
+#cupons button {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  outline: none;
+  height: 40px;
+  width: 130px;
+  background-color: #99B080;
+  color: #FAF8ED;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.6s ease;
+}
+#cupons button:hover {
+  box-shadow: 0 0 8px #99B080;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #F9B572;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background-color: #FAF8ED;
+}
+footer i {
+  color: blue;
+}
+
+/* % Seção Flor e Pedra */
+#pedra-e-flor {
+  margin: 80px;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+#pedra-e-flor .img-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+#pedra-e-flor .texto {
+  line-height: 1.5;
+  width: 50%;
+}
+#pedra-e-flor h3 {
+  color: #748E63;
+  font-size: 1.875rem;
+  font-weight: 300;
+}
+#pedra-e-flor h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+#pedra-e-flor p {
+  max-width: 600px;
+}/*# sourceMappingURL=style.css.map */

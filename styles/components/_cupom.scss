@@ -1,0 +1,57 @@
+/* % Cupons */
+
+@import url('../abstract/_variables.scss');
+
+#cupons {
+    background-color: $cor4;
+    padding: 4rem;
+    text-align: center;
+
+    .texto {
+        color: $cor1;
+
+        h2 {
+            margin: 2rem;
+            font-size: $tamanho-titulo / 1.5;
+        }
+
+    }
+
+    input {
+        width: 575px;
+        margin: 0 auto;
+        border-radius: 24px;
+        background-color: white;
+        border: 1px solid lightgrey;
+        padding: 1rem;
+        outline: none;
+        text-align: center;
+        transition: all .6s ease;
+        font-size: $tamanho-titulo / 2.75;
+
+        &:hover, &:focus {
+            box-shadow: 1px 1px 8px 1px $cor3;
+        }
+    }
+
+    button {
+        text-transform: uppercase;
+        margin-top: 1rem;
+        outline: none;
+        height: 40px;
+        width: 130px;
+        background-color: $cor3;
+        color: $cor1;
+        border-radius: 16px;
+        border: none;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: all .6s ease;
+
+        &:hover {
+            box-shadow: 0 0 8px $cor3;
+        }
+    }
+}

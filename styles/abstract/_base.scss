@@ -1,0 +1,10 @@
+@import './variables';
+
+body {
+    font-family: $font;
+}
+
+@mixin folha {
+    border-radius: 48px 0;
+    background-color: $cor1
+}

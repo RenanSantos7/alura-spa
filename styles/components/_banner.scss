@@ -1,0 +1,31 @@
+/* % Banner */
+
+@import '../abstract/variables';
+
+.banner {
+    background: url(../imagens/banner.jpeg) 27% center no-repeat;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    color: $cor1;
+
+    .inner-banner {
+        padding: 3rem;
+        color: $cor4;
+        opacity: 0.75;
+        @include folha;
+    }
+
+    h1 {
+        font-size: $tamanho-titulo;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: $tamanho-titulo / 2.90;
+    }
+}
+
